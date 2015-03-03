@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!--结算-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="结算:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20px"/>
+        <ImageButton
+            android:id="@+id/imgbt_sum"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:background="@drawable/shopping"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:text="商品列表："
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFFFF" />
+
+    <!--商品列表-->
+    <ListView
+        android:id="@+id/list_goods"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
