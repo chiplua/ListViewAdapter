@@ -23,15 +23,16 @@ public class MyListView extends Activity {
     private List<Map<String, Object>> listItems;
     private Integer[] imgeIDs = {R.drawable.cake, R.drawable.gift,
                                  R.drawable.letter, R.drawable.love,
-                                 R.drawable.mouse, R.drawable.music};
-    private String[] goodsNames = {"蛋糕", "礼物", "邮票", "爱心", "鼠标", "音乐CD"};
+                                 R.drawable.mouse, R.drawable.music, R.drawable.phone};
+    private String[] goodsNames = {"蛋糕", "礼物", "邮票", "爱心", "鼠标", "音乐CD", "手机"};
     private String [] goodsDetails = {
             "蛋糕：好好吃。",
             "礼物：礼轻情重。",
             "邮票：环游世界。",
             "爱心：世界都有爱。",
             "鼠标：反应敏捷。",
-            "音乐CD：酷我音乐。"};
+            "音乐CD：酷我音乐。",
+            "手机：智能世界。"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
